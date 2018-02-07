@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>People list</title>
+		<script type="text/javascript" src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+	
+		<h1 style="text-align: center;">↑ Sortable list of names ↓</h1>
+		<hr />
+		<p style="text-align: center;" id="caption">Please fill below several names (at least 7)</p>
+
+		<form id="myForm">
+		  <input type="text" name="input" id="name-input" placeholder="Enter name here.." required>
+		  <input type="submit" id="submit-btn" value="Add" onclick="addInput()">	
+		  <br />
+		  <span>Number of the names: </span>
+		  <span id="input-counter">0</span>
+		</form>
+
+	</body>
+</html>

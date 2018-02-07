@@ -1,0 +1,41 @@
+.sortable {
+	text-align: center;
+	font-weight: bold;
+	cursor: move;
+	width: 50%;
+	padding: 5px;
+	margin: 5px auto;
+	border: 5px ridge grey;
+	border-radius: 6px;
+}
+
+.sortable:hover {
+	border: 7px ridge grey;
+}
+
+h1 {
+	text-shadow: 3px 2px gray;
+}
+
+p, span, h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#myForm {
+	text-align: center;
+}
+
+#name-input {
+	width: 40%;
+	margin: 10px 0;
+	text-align: center;
+}
+
+#submit-btn, button {
+	margin: 10px 0;
+	text-align: center;
+	background-color: grey;
+	color: white;	
+    cursor: pointer;
+	border-radius: 8px;
+}
